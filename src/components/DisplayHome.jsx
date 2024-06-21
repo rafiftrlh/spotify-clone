@@ -1,8 +1,8 @@
 import Navbar from "./Navbar"
 import { albumsData, songsData } from "../assets/assets"
-import AlbumItem from "./CardItem"
+import AlbumItem from "./AlbumItem"
 
-function DisplayHome() {
+const DisplayHome = () => {
   return (
     <>
       <Navbar />
@@ -23,3 +23,4 @@ function DisplayHome() {
 }
 
 export default DisplayHome
+

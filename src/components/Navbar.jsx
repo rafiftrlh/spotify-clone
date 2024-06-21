@@ -1,6 +1,6 @@
 import { assets } from "../assets/assets"
 
-function Navbar() {
+const Navbar = () => {
   return (
     <>
       <div className="w-full flex justify-between items-center font-semibold">
